@@ -1,4 +1,4 @@
-# **TheRouter**  
+# **TheNetworkAdapter**  
 <table>
  <tr style="border: none;">
     <td>
@@ -42,7 +42,7 @@
            style="border: 3px solid black; border-radius: 10px; padding: 5px;">
     </td>
     <td>
-      <strong>Role:</strong> TheRouter
+      <strong>Role:</strong> TheNetworkAdapter
     </td>
   </tr>
 </table>
