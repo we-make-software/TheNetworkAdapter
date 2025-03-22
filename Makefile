@@ -7,7 +7,7 @@ KBUILD_EXTRA_SYMBOLS := ../ExpiryWorkBase/Module.symvers ../TheMailConditioner/M
 
 COMMIT_MSG = Update on $(shell date '+%Y-%m-%d %H:%M:%S')
 
-obj-m := TheRouter.o
+obj-m := TheNetworkAdapter.o
 
 all:
 	$(MAKE) -C $(KERNELDIR) M=$(PWD) modules
@@ -23,11 +23,11 @@ clean:
 
 start:
 	make all
-	sudo insmod TheRouter.ko
+	sudo insmod TheNetworkAdapter.ko
 	make log
 	
 stop:
-	sudo rmmod TheRouter.ko
+	sudo rmmod TheNetworkAdapter.ko
 	make clear
 
 commit:

@@ -1,9 +1,9 @@
 #include "../TheNetworkAdapter/TheNetworkAdapter.h"
+SetupTM(TheNetworkAdapter,0,0,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255)
 static void TMStart(void){
-    GetNetworkAdapterTM();
-    //TheNetworkAdapterTM
+    GetTheNetworkAdapterTM();
+    TheNetworkAdapterTM->test=0;
 }
 static void TMEnd(void){
  
 }
-SetupTM(TheNetworkAdapter,0,0,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255)
