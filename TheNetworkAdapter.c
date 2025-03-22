@@ -1,10 +1,7 @@
 #include "../TheNetworkAdapter/TheNetworkAdapter.h"
-
-
 static void TMStart(void){
     GetNetworkAdapterTM();
-    ///TheNetworkAdapterAPI;
-
+    //TheNetworkAdapterTM
 }
 static void TMEnd(void){
  
