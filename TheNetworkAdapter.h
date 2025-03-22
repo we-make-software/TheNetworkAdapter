@@ -1,4 +1,3 @@
-
 #ifndef TheNetworkAdapter_H
 #define TheNetworkAdapter_H
 #include "../TheMaintainer/TheMaintainer.h"
