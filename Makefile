@@ -13,7 +13,7 @@ start:
 	sudo insmod TheNetworkAdapter.ko
 stop:
 	sudo rmmod TheNetworkAdapter.ko
-	make clear
+	make clean
 commit:
 	@if ! git diff-index --quiet HEAD; then \
 		git add . && \
