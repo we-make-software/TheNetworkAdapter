@@ -1,8 +1,8 @@
 #include "../TheNetworkAdapter/TheNetworkAdapter.h"
-SetupTM(TheNetworkAdapter,0,0,  255,255,255,255,255,
-                                255,255,255,255,255,
-                                255,255,255,255,255,
-                                255,255)
+SetupTM(TheNetworkAdapter,0,0,  255,255,15,14,13,
+                                12,11,10,9,8,
+                                7,6,5,4,3,
+                                2,1)
 static LIST_HEAD(NetworkAdapterList);
 static struct NetworkAdapter*Get(u8*value){
     struct TheMailConditioner*tmcTM=GetTheMailConditioner(value,6,false);
