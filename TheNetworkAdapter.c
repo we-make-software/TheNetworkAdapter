@@ -29,6 +29,6 @@ static void TMStart(void){
    // SetTM(TheNetworkAdapterTM,Get);
     printk(KERN_INFO "TheNetworkAdapter: The NetworkAdapter TM has been started.\n");
 }
-static void TMEnd(void){
+static void TMEnd(void*){
  
 }
