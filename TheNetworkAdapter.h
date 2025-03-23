@@ -2,16 +2,14 @@
 #define TheNetworkAdapter_H
 #include "../TheMaintainer/TheMaintainer.h"
 struct NetworkAdapter{
-  
+    SetupEWB;
+    SetupGetAddTMInData();
+    struct net_device*dev;
 };
 struct TheNetworkAdapter{
-    struct NetworkAdapter*(*Get)(u8*value);
-    struct NetworkAdapter*(*Add)(u8*value);
+    SetupEWB;
+    SetupGetAddTMInStruct(NetworkAdapter);
 };
-/*
-#define GetTheNetworkAdapterTM()TM(TheNetworkAdapter,   255,255,255,255,255,
-                                                        255,255,255,255,255,
-                                                        255,255,255,255,255,
-                                                        255,255)
-*/
+#define GetTheNetworkAdapterTM()TM(TheNetworkAdapter,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255)
+
 #endif
