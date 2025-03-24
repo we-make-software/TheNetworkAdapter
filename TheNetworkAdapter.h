@@ -8,6 +8,6 @@ struct NetworkAdapter{
 struct TheNetworkAdapter{
     SetupEWB;
 };
-#define GetTheNetworkAdapterTM()TM(TheNetworkAdapter,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255)
-#define GetTheNetworkAdapterTMFailback(failback)TMFailback(TheNetworkAdapter,failback,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255)
+#define GetTheNetworkAdapterTM()TM(TheNetworkAdapter,254,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255)
+#define GetTheNetworkAdapterTMFailback(failback)TMFailback(TheNetworkAdapter,failback,254,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255)
 #endif
